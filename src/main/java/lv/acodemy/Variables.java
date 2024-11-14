@@ -28,7 +28,7 @@ public class Variables {
         double price = 19.99;
         double distance = 38400.0;
 
-        float shortDistance = 10.300000f;
+        // float shortDistance = 10.300000f;
 
         System.out.println(temperature); // vivoditsja 4islo 36.6
         System.out.println(price); // vivoditsja 4islo 19.99
