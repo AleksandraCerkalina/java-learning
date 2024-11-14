@@ -106,7 +106,7 @@ public class Variables {
         // Increment ++
         // ++preIncrement
         // Decrement --
-        // ++decrement
+        // --decrement
 
         number++; // number = 9 ++ number = 10
         System.out.println(number); // vivoditsja 10
@@ -119,6 +119,40 @@ public class Variables {
         int preIncrement = ++counter; // preIncrement = zna4enije counter uveli4ivaetsja na +1 = 13; counter = 13;
         System.out.println(postIncrement); // vivoditsja 11
         System.out.println(preIncrement); // vivoditsja 13
+
+        // 14.11.2024
+
+        String name = "John";
+        String lastName = "Doe";
+
+        // Print them separately
+        System.out.println(name);
+        System.out.println(lastName);
+
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
+
+        // %s - for String
+        // %d - for numbers
+        // %b - boolean
+
+        System.out.println(String.format("My name is: %s, My surname is: %s", name, lastName));
+        System.out.printf("My name is: %s, My surname is: %s\n", name, lastName);
+        System.out.printf("My name is: %s, My surname is: %s%n", name, lastName);
+
+        var myCurrentAge = 30;
+        var text = "Hello World";
+
+        String myVar;
+        myVar = "Hello World!";
+
+
+
+
+
+
+
+
 
 
     }
